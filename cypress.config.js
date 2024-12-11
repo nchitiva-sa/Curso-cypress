@@ -5,7 +5,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       allureWriter(on, config, {
-        resultsDir: "allure-results",
+        resultsDir: "allure-results"
       });
       return config;
      },

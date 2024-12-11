@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generar-reporte":"allure generate allure-results -o allure-report --clean"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,8 @@
     "cypress": "^13.16.1"
   },
   "dependencies": {
-    "@shelex/cypress-allure-plugin": "^2.40.2"
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.32.0"
+
   }
 }
